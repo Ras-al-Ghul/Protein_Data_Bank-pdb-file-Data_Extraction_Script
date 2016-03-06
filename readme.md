@@ -7,8 +7,8 @@ A script which takes a **pdb** file as input and retreives and writes the follow
 3. `Number of chains` present in the protein and their `names` (ascending order if the chains are named numerically followed by alphabetical order).
 4. All `aminoacid ratios` present in the protein in alphabetical order.  
 </t> eg: `Ratio(Leu) = no of leucine present/total length of protein`.
-5. Mention the `total count` of any `unknown aminoacids` present.
-6. Mention the names of any `ligand molecules` other than `water`.
+5. The `total count` of any `unknown aminoacids` present.
+6. The names of any `ligand molecules` other than `water`.
 7. Calculate all possible `phi`, `psi`, `omega` angles for the given pdb file.
 
 ####To Run
