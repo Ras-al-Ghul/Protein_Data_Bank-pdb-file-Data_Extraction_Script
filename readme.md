@@ -1,4 +1,4 @@
-#PDB file parser/data-extractor
+# PDB file parser/data-extractor
 
 A script which takes a **pdb** file as input and retreives and writes the following information to an output text file.
 
@@ -11,6 +11,6 @@ A script which takes a **pdb** file as input and retreives and writes the follow
 6. The names of any `ligand molecules` other than `water`.
 7. Calculate all possible `phi`, `psi`, `omega` angles for the given pdb file.
 
-####To Run
+#### To Run
 `python bioscript.py <filename>`  
 where filename is the name of a pdb file - eg: `2wsc.pdb` which is provided. Running the script gives the output in a file named `2wsc_output.txt`. The format matches the format of `Sample_output.txt` which is also provided.
